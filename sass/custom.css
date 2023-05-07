@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #eee;
+  font-size: 20px;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+.container {
+  max-width: 1280px;
+  width: 92%;
+  margin: 12px auto;
+}
+
+.header {
+  background-color: #4e6c81;
+  height: 132px;
+  margin-bottom: 12px;
+  padding: 12px;
+  padding-bottom: 24px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.header-logo {
+  color: #eee;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+.two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-socials {
+  color: #eee;
+  font-size: 28px;
+}
+
+.search {
+  color: #eee;
+  font-size: 28px;
+}
+
+@media (min-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.nav {
+  position: relative;
+  background-color: #2b4a61;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+}
+
+.icon-gate {
+  color: #eee;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.menu {
+  position: absolute;
+  top: 78px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2b4a61;
+  width: 50%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  transition: height 0.5s linear;
+}
+
+.menu-link:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 12px;
+}
+
+.look {
+  height: 172px;
+}
+
+@media (min-width: 768px) {
+  .icon-gate {
+    display: none;
+  }
+  .menu {
+    position: static;
+    flex-direction: row;
+    justify-content: space-between;
+    background: none;
+    width: auto;
+    height: auto;
+  }
+}
+.main {
+  margin-bottom: 12px;
+  border-radius: 12px;
+}
+
+.major {
+  background-color: #4e6c81;
+  color: #eee;
+  margin-bottom: 12px;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.major-title {
+  padding: 24px 0;
+  text-align: center;
+}
+
+.articles {
+  background-color: #2b4a61;
+  color: #eee;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.articles-title {
+  font-weight: normal;
+  padding: 24px 0;
+}
+
+.article {
+  margin-bottom: 12px;
+  padding: 12px;
+  border: 2px solid;
+  border-radius: 12px;
+}
+
+.article-title {
+  font-weight: normal;
+}
+
+.contact {
+  background-color: #4e6c81;
+  color: #eee;
+  margin-bottom: 12px;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.contact-title {
+  font-weight: normal;
+  padding: 24px 0;
+  text-align: center;
+}
+
+.contact-form {
+  background-color: #2b4a61;
+  width: min(450px, 100%);
+  margin: 0 auto;
+  margin-bottom: 12px;
+  padding: 24px;
+  border-radius: 12px;
+}
+
+.field-in {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+}
+
+.field-textarea {
+  height: 200px;
+  resize: none;
+}
+
+.field-in::-moz-placeholder, .field-textarea::-moz-placeholder {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}
+
+.field-in::placeholder, .field-textarea::placeholder {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}
+
+.field-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  background-color: #146c94;
+  border: 2px solid;
+  border-radius: 8px;
+}
+
+.contact-socials {
+  display: block;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  height: 80px;
+  font-size: 28px;
+  padding-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-socials [class*=icon-] {
+  margin-right: 24px;
+}
+
+.contact-additional-information {
+  margin-top: 62px;
+  padding: 24px;
+}
+
+.btn-contact {
+  display: inline-block;
+  background-color: #146c94;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.footer {
+  background-color: #2b4a61;
+  color: #eee;
+  margin-bottom: 24px;
+  padding: 24px;
+  border-radius: 12px;
+}
+
+.footer-name {
+  font-size: 24px;
+  text-align: center;
+}/*# sourceMappingURL=custom.css.map */
