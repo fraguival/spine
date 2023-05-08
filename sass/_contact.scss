@@ -1,5 +1,5 @@
 .contact {
-    background-color: $first;
+    background-color: $second;
     color: $light;
     margin-bottom: 12px;
     padding: 12px;
@@ -11,7 +11,7 @@
     text-align: center;
 }
 .contact-form {
-    background-color: $dark;
+    background-color: $first;
     width: min(450px, 100%);
     margin: 0 auto;
     margin-bottom: 12px;
@@ -30,6 +30,7 @@
     resize: none;
 }
 .field-in::placeholder, .field-textarea::placeholder {
+    color: $third;
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
 }

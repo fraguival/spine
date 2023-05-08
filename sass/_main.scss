@@ -1,9 +1,8 @@
 .main {
     margin-bottom: 12px;
-    border-radius: 12px;
 }
 .major {
-    background-color: $first;
+    background-color: $second;
     color: $light;
     margin-bottom: 12px;
     padding: 12px;
@@ -11,16 +10,16 @@
 }
 .major-title {
     padding: 24px 0;
-    text-align: center;
+    text-align: justify;
 }
 .articles {
-    background-color: $dark;
+    background-color: $first;
     color: $light;
     padding: 12px;
     border-radius: 12px;
 }
 .articles-title {
-    font-weight: normal;
+    font-size: 28px;
     padding: 24px 0;
 }
 .article {
@@ -28,7 +27,4 @@
     padding: 12px;
     border: 2px solid;
     border-radius: 12px;
-}
-.article-title {
-    font-weight: normal;
 }
